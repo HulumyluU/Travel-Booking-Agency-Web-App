@@ -6,11 +6,11 @@ class FamilyFields extends StatelessWidget {
   final TextEditingController remainingFamilyMemberController;
 
   const FamilyFields({
-    Key? key,
+    super.key,
     required this.primaryContactController,
     required this.insuranceCompanyController,
     required this.remainingFamilyMemberController,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

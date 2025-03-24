@@ -12,9 +12,9 @@ class BookingForm extends StatefulWidget {
   final Function(Customer) onAddCustomer;
 
   const BookingForm({
-    Key? key,
+    super.key,
     required this.onAddCustomer,
-  }) : super(key: key);
+  });
 
   @override
   _BookingFormState createState() => _BookingFormState();

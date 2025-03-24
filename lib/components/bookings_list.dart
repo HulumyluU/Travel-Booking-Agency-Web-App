@@ -10,12 +10,12 @@ class BookingsList extends StatelessWidget {
   final VoidCallback onClearBookings;
 
   const BookingsList({
-    Key? key,
+    super.key,
     required this.customers,
     required this.totalPrice,
     required this.onAddBooking,
     required this.onClearBookings,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

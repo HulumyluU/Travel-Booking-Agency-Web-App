@@ -6,11 +6,11 @@ class GroupFields extends StatelessWidget {
   final TextEditingController acceptingCompanyController;
 
   const GroupFields({
-    Key? key,
+    super.key,
     required this.groupInsuranceController,
     required this.organizingHardwareController,
     required this.acceptingCompanyController,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -4,7 +4,7 @@ import 'components/booking_form.dart';
 import 'components/bookings_list.dart';
 
 class BookingScreen extends StatefulWidget {
-  const BookingScreen({Key? key}) : super(key: key);
+  const BookingScreen({super.key});
 
   @override
   _BookingScreenState createState() => _BookingScreenState();

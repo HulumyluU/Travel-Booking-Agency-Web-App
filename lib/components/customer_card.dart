@@ -9,10 +9,10 @@ class CustomerCard extends StatelessWidget {
   final int index;
 
   const CustomerCard({
-    Key? key,
+    super.key,
     required this.customer,
     required this.index,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

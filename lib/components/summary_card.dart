@@ -5,10 +5,10 @@ class SummaryCard extends StatelessWidget {
   final double totalPrice;
 
   const SummaryCard({
-    Key? key,
+    super.key,
     required this.totalBookings,
     required this.totalPrice,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -6,11 +6,11 @@ class IndividualFields extends StatelessWidget {
   final TextEditingController workPlaceController;
 
   const IndividualFields({
-    Key? key,
+    super.key,
     required this.homeAddressController,
     required this.insuranceNumberController,
     required this.workPlaceController,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

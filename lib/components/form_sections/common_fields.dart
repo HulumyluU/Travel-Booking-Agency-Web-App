@@ -8,13 +8,13 @@ class CommonFields extends StatelessWidget {
   final TextEditingController priceController;
 
   const CommonFields({
-    Key? key,
+    super.key,
     required this.destinationController,
     required this.phoneController,
     required this.emailController,
     required this.contactNameController,
     required this.priceController,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
